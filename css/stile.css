@@ -1,0 +1,99 @@
+
+nav{
+    text-align:left;
+    display: flex;
+    color: black;
+ }    
+ .tasto{
+    width:25%;
+    border:none;
+    background-color: rgb(57, 57, 57);
+    height: 50px;
+    text-align: center;
+    border-right: 1px solid #ffffff;
+
+       p{
+          color: rgb(255, 255, 255);
+          font-size: 20px;
+          font-weight: bold;
+        }
+ } 
+ a:link{
+    text-decoration: none;
+    
+ }
+ li a:hover {
+   background-color: #111;
+   
+ }
+ p{
+   text-align: center;
+   padding-left: 0%;
+   
+ }
+#logo{
+   padding-bottom: 80px;
+   padding-left: 60%;
+   
+}
+#img2{
+   float: "left";
+}
+.container{
+   display: inline-block;
+   max-width: 350px;
+   margin-left: 20px;
+   background-color: rgb(123, 72, 0);
+   border-radius: 20px;
+   margin-bottom: 20px;
+   box-size: border-box;
+}
+.container img{
+   width: 100%;
+   height: 250px;
+   opacity: 1;
+   margin: auto;
+   margin-top: 50px;
+
+
+}
+.container p{
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   margin-top: 30px;
+   font-size: 150%;
+}
+.button {
+   background-color: #9c8004; /* Green */
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+
+
+ }
+ .button{
+   border-radius: 2px;
+}
+.button {
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .button:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+ #login{
+
+   background-image: url("../img/galleria/visuale.jpg");
+   
+   background-size: cover;
+ }
+ #sfondoLOG{
+   background-color: rgba(65, 65, 65, 0.8);
+   text-align: center;
+   margin-left: 20%;
+ }
